@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="RoundedImageView" parent="Widget.MaterialComponents.TimePicker.ImageButton">
+        <item name="android:background">@drawable/no_pictures</item>
+    </style>
+</resources>
+<!--    Widget.MaterialComponents.ImageView-->
