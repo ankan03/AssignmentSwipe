@@ -47,7 +47,7 @@ class RecyclerViewAdapter() : RecyclerView.Adapter<RecyclerViewAdapter.MyViewHol
         fun bind(data:GetProductResponse){
             productName.text = data.product_name
             productType.text = data.product_type
-            price.text = formatAmount(data.price)
+            price.text = "₹ ${formatAmount(data.price)}"
             tax.text = formatAmount(data.tax)
 
             if (data.image != null && data.image.isNotEmpty()) {

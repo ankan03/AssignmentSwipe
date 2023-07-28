@@ -19,6 +19,7 @@
             android:layout_marginStart="32dp"
             android:text="Product Name"
             android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_star"
             app:layout_constraintBottom_toTopOf="@+id/edit_text_product_name"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -45,6 +46,7 @@
             android:layout_marginStart="32dp"
             android:text="Product Type"
             android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_star"
             app:layout_constraintBottom_toTopOf="@+id/edit_text_product_type"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -70,6 +72,7 @@
             android:layout_marginStart="32dp"
             android:text="Price"
             android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_star"
             app:layout_constraintBottom_toTopOf="@+id/edit_text_price"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -95,6 +98,7 @@
             android:layout_marginStart="32dp"
             android:text="Tax"
             android:textSize="18sp"
+            android:drawableEnd="@drawable/ic_star"
             app:layout_constraintBottom_toTopOf="@+id/edit_text_tax"
             app:layout_constraintStart_toStartOf="parent" />
 
@@ -140,8 +144,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="36dp"
-            android:text="Click here to upload image   "
+            android:text="Click here to upload image "
             android:drawableEnd="@drawable/ic_upload"
+            android:textSize="18sp"
             app:layout_constraintStart_toStartOf="@+id/edit_text_tax"
             app:layout_constraintTop_toBottomOf="@+id/edit_text_tax" />
 
